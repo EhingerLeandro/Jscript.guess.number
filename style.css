@@ -1,0 +1,55 @@
+body{
+background: linear-gradient
+}
+
+h1{
+	text-align:center;
+}
+
+.container{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.screen{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:35vh;
+	width: 80vw;
+	background: #eee;
+	border-radius: 10%;
+	border: 5px solid #333;
+	margin-bottom: 10px;
+}
+
+.letrero{
+	font-size:25px;
+	text-align: center;
+	margin: 0% 10% 0 10%;
+}
+
+.button-answers{
+	margin:auto;
+	width:25vw;
+	height: 40vh;
+	/*background: #aaa;
+	display:flex;
+	justify-content: center;*/
+}
+
+.button{
+	font-size:15px;
+	margin: 2px;
+	padding:2px;
+	margin-bottom:5px;
+	width:100%;
+}
+
+/*#but-start{width:24vw;}
+#but-si{width:24vw;}
+#but-no{width:24vw;}
+#but-mayor{width:24vw;}
+#but-menor{width:24vw;}
+#but-ok{width:100%;}*/
