@@ -60,7 +60,7 @@ buttonNo.addEventListener("click", e=>{
 
 function logicBroken(){
 	if(!guessedNumber & guessedNumber != 0){
-		letrero.innerHTML= `<span style="color: darkblue ;">!Atención! Elegiste una opción que rompe la lógica del juego.<br></span> Oprime <b> Ok </b> para Reiniciar.`;
+		letrero.innerHTML= `<span style="color: darkblue ;">!Atención! Elegiste una opción que rompe la lógica del juego.</span><br> Oprime <b> Ok </b> para Reiniciar.`;
 		buttonOk.style.display = "block";
 		menor.style.display = "none";
 		mayor.style.display = "none";
